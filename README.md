@@ -9,7 +9,7 @@
 - **Scalable & Fast** – Optimized to generate results quickly with high-quality outputs.
 
 ## Technologies Used
-- **Rust/Python (Backend)** – For handling user requests and processing recipes.
+- **Python (Backend)** – For handling user requests and processing recipes.
 - **OpenAI/DALL·E API** – To generate recipes and food images.
 - **FastAPI/Warp Framework** – API implementation for seamless interaction.
 - **Docker** – Containerized for easy deployment.
@@ -18,7 +18,7 @@
 
 ### Prerequisites
 Ensure you have the following installed:
-- Python 3.8+ (if using a Python backend) or Rust (if using a Rust backend)
+- Python 3.8+ (if using a Python backend) 
 - Docker (optional for containerized deployment)
 - API key for generative AI (OpenAI or similar)
 
@@ -28,13 +28,9 @@ Ensure you have the following installed:
    git clone https://github.com/yourusername/recipe-image-magic.git
    cd recipe-image-magic
    ```
-2. **Install Dependencies (Python version):**
+2. **Install Dependencies :**
    ```sh
    pip install -r requirements.txt
-   ```
-   OR **Build Rust Project:**
-   ```sh
-   cargo build --release
    ```
 3. **Set Up Environment Variables:**
    ```sh
@@ -44,10 +40,7 @@ Ensure you have the following installed:
    ```sh
    python main.py  # For Python
    ```
-   OR
-   ```sh
-   cargo run --release  # For Rust
-   ```
+
 
 ## Usage
 
